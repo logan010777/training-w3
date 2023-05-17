@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Local Training</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <style>
+            a:link{
+                color:green;
+                text-decoration:none;
+                background-color:transparent;
+            }
+            a:hover{
+                color:red;
+                text-decoration:none
+                background-color:transparent;
+            }
+            a:visited{
+                color:pink;
+                text-decoration:none;
+                background-color:transparent;
+            }
+            a:active{
+                color:yellow;
+                text-decoration:none;
+                background-color:transparent;
+            }
+            img{
+                width:100%;
+            }
+            .xxx{
+                background-image : url('leg.jpg');
+                height:100vh;
+                background-attachment:fixed;
+                background-size:cover;
+                background-repet : no-repet;
+            }
+        </style>
+</head>
+<body class= "w3-light-gray">
+    <header class="w3-container w3-indigo">
+    <h1 class=" w3-center" title="welcome">خوش آمدید
+    <img src="animated.gif" alt="an animated man is programming" style="width:100px;height:100px;" usemap="#pmap">
+    <map name='pmap'>
+    <area shape="rectangle" coords="40 , 10 , 90 , 40 " alt="monitor" href="https://en.wikipedia.org/wiki/Computer_monitor" target="_blank" onclick="myfunc()">
+    <area shape = "poly" coords = "30 , 40 , 35 ,40 ,40 ,40 , 40 ,50 , 40 ,60 , 35 ,60 ,30 ,60 ,30 ,65 , 40 ,67 ,45, 70 , 45, 80 , 30 , 60 ,10 ,50" href="https://en.wikipedia.org/wiki/Human" target="_blank" alt= "human">
+    <area shape = "circle" coords = "65 , 50 , 10" alt ="small monitor" href="https://emalls.ir/files/Products/automatic/2818843/louv4pbc_thumb3.jpg">
+    </map> 
+    </h1>
+    </header>
+    <div class="w3-center w3-container xxx w3-text-red">
+    <p class="w3-text-pink">Hello <sub><mark>world</mark></sub> is in <br><del>their</del> <ins>your</ins> <sup><i><small>hand</small></i></sup> <br> because the source wanted to be</p>
+    <hr class="w3-red">
+    <p>The world the world <abbr title="cacading style sheet">css</abbr> and <abbr title="hyper text markup language">html</abbr>.</p>
+    <address>
+        written by babak <br>
+        phone number : +989184844286 <br>
+        address : iran / markazi / khomein / khorshid complex <br>
+    </address>
+    <p><cite>The darkness passes</cite> by arthur langhungs</p>
+    <bdo dir="rtl"> Babak Bayat</bdo>
+    <a href="mailto:baabaakbayat@gmail.com" style="font-size:100%;"> تماس با ما از طریق ایمیل </a>
+    <br>
+    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
+    <br>
+    <a href="aa.php#h5"> Go to Another page header 5 </a>
+    <button class="w3-button w3-blue w3-round-small" onclick="document.getElementById('xxx').style.display='block'">Show Panel</button>
+    <div class="w3-panel w3-blue w3-display-container" id ='xxx' style="display:none;">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-blue w3-large">x</span>
+    <blockquote>If you look at what you have in life, you'll always have more. <br>If you look at what you don't have in life, you'll never have enough.<br> -Oprah Winfrey</blockquote>
+    </div>
+    <script>
+        function myfunc(){
+            alert("you clicked on monitor and you'll be directed to wikipedia now");
+        }
+    </script>
+</body>
+</html>
